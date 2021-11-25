@@ -1,0 +1,38 @@
+.parallax {
+	/* The image used */
+	background-image: url("https://images.ctfassets.net/lzny33ho1g45/learn-html-css-p-img/12978ef50623cf76538cfe18e1011fc5/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760");
+
+	/* Set a specific height */
+	min-height: 500px;
+	margin-top: 0px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+
+	color: #000;
+}
+.border {
+	background-color: #777;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 7px;
+}
+.mission {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 1.5rem;
+}
+.mission h1 {
+	font-size: 3rem;
+}
