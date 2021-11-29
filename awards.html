@@ -4,20 +4,39 @@
 		<meta charset="utf-8" />
 		<title>Edgemont Programming Club</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="main.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
 		/>
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
-		<div class="ui six item menu">
+		<div
+			style="
+				height: 7%;
+				font-size: 1.3rem;
+				border: 0.5px black;
+				padding: 0;
+				margin-bottom: 0;
+			"
+			class="ui grey six item inverted top fixed menu"
+		>
 			<a href="index.html" class="item">Home</a>
 			<a href="members.html" class="item">Members</a>
-			<a href="awards.html" class="header item">Awards</a>
+			<a href="awards.html" class="active item">Awards</a>
 			<a href="projects.html" class="item">Projects</a>
 			<a href="resources.html" class="item">Resources</a>
 			<a href="contact.html" class="item">Contact Us</a>
 		</div>
+		<div class="main">
+			<div class="parallaxAwards">
+				<div class="caption">
+					<span class="border">Edgemont Programming Club Awards</span>
+				</div>
+			</div>
+			<br />
+			<div class="ui padded four column grid"></div>
+		</div>
+		<script src="js/awards.js"></script>
 	</body>
 </html>

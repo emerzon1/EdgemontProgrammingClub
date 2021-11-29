@@ -11,6 +11,33 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.main {
+	background-color: #eee;
+}
+.parallaxAwards {
+	/* The image used */
+	background-color: #eee;
+	background-image: url("https://www.pngkey.com/png/full/54-542823_collection-of-trophy-clipart-images-high-quality-free.png");
+	background-size: 60%;
+	/* Set a specific height */
+	min-height: 700px;
+	margin-top: 0px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grid {
+	margin-left: 10px !important;
+}
+.grid {
+	background-color: #eee !important;
+}
+.card {
+	width: 110% !important;
+	background-color: #bbb !important;
+}
+
 .caption {
 	position: absolute;
 	left: 0;
