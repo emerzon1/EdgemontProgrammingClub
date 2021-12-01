@@ -17,7 +17,7 @@
 .parallaxAwards {
 	/* The image used */
 	background-color: #eee;
-	background-image: url("../img/trophy.png");
+	background-image: url("../images/trophy.png");
 	background-size: 60%;
 	/* Set a specific height */
 	min-height: 700px;
