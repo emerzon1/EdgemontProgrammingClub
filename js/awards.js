@@ -1,6 +1,16 @@
 const grid = document.querySelector(".grid");
 const awards = [
 	{
+		name: "GunnHacks",
+		year: "2022",
+		award: "5th Overall, Best Use of Auth0"
+	},
+	{
+		name: "StuyHacks XI",
+		year: "2022",
+		award: "Most Innovative"
+	},
+	{
 		name: "PClassic",
 		year: "2021",
 		award: "Placed 8th out of over 100 teams",
@@ -75,6 +85,7 @@ const awards = [
 		year: "2018",
 		award: "Best Beginner",
 	},
+	
 ];
 for (let i of awards) {
 	grid.innerHTML += `

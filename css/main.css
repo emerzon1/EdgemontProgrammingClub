@@ -11,6 +11,19 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.parallax-contacts {
+	/* The image used */
+	background-image: url("../images/Hackathon.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	margin-top: 0px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .main {
 	background-color: #eee;
 }
