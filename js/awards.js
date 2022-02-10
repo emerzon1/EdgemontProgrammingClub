@@ -6,6 +6,11 @@ const awards = [
 		award: "5th Overall, Best Use of Auth0"
 	},
 	{
+		name: "Edgemont Hackathon 3",
+		year: "2022",
+		award: "26 participants total. $20 to winning team with Arjun Rajdev, Hillary Schuldenfrei, Yash Shah. "
+	},
+	{
 		name: "StuyHacks XI",
 		year: "2022",
 		award: "Most Innovative"
