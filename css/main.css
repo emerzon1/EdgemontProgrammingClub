@@ -39,17 +39,30 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.grid {
-	margin-left: 10px !important;
-}
-.grid {
-	background-color: #eee !important;
-}
-.card {
-	width: 110% !important;
-	background-color: #bbb !important;
-}
 
+.parallaxResources {
+	background-color: #eee;
+	background-image: url("../images/Books.jpg");
+	background-size: 60%;
+
+	min-height: 700px;
+	margin-top: 0px;
+
+	border-radius: 10%;
+}
+.person img{
+	border-radius: 100%;
+	width: 30%;
+}
+.aboutperson{
+	width: 60%;
+}
+.aboutperson h2{
+	text-align: center;
+}
+.aboutperson p{
+	text-align: left;
+}
 .caption {
 	position: absolute;
 	left: 0;
