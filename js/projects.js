@@ -32,7 +32,7 @@ console.log("hi")
 
 for(project of projects){
     div.innerHTML += 
-    `<a href="${project.link}" class="ui card">
+    `<div style="display:flex; margin-bottom:5%; margin-left: 5%; height:400px;"><a href="${project.link}" class="ui card">
         <div class="content">
             <div class="header">
                 ${project.name}
@@ -44,10 +44,9 @@ for(project of projects){
             </div>
         </div>
         <div class="content">
-            <div class="link">
+            <div style="word-wrap:break-word; line-height:120%" class="link">
                 ${project.link}
             </div>
         </div>
-
-    </div>`
+    </a></div`
 }
